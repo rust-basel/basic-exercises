@@ -17,4 +17,16 @@ mod tests {
         // then
         assert_eq!(sum, 239163);
     }
+
+    #[test]
+    fn get_the_amount_of_items() {
+        // given
+        let collection = vec![4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 14, 4, 4, 4, 4, 4, 4, 4, 3, 4, 4, 4, 4, 4, 4, 42, 2, 2, 2, 2, 2, 2, 33, 4];
+
+        // when (use the collection above!)
+        let amount = 0;
+
+        // then
+        assert_eq!(amount, 36);
+    }
 }
