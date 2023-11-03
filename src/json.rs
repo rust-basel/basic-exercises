@@ -16,7 +16,7 @@ mod tests {
     use crate::json::{Employer, Gender};
 
     #[test]
-    fn object_to_serialized_is_serialized_to_json() {
+    fn employer_can_be_serialized_to_json() {
         // given
         let employer = Employer {
             vorname: "Rust".to_string(),
