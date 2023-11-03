@@ -5,6 +5,8 @@ f(n) = f(n-1)+f(n-2)
 
 The first and second result is given with
 f(0) = 0 and f(1) = 1
+
+The second result can be computed like so:
 f(2) = f(0) + f(1)
 */
 
