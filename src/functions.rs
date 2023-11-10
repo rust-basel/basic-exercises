@@ -20,6 +20,6 @@ mod tests{
 
     #[test]
     fn compute_fibonacci_with_a_function(){
-        assert_eq!(fibonacci(7), 1189);
+        assert_eq!(fibonacci(7), 8);
     }
 }
