@@ -18,14 +18,17 @@ mod tests {
         assert_eq!(foobar(3), Some("Foo".to_string()));
     }
 
+    #[test]
     fn returns_bar_when_dividable_by_5() {
         assert_eq!(foobar(5), Some("Bar".to_string()));
     }
 
+    #[test]
     fn returns_foobar_when_dividable_by_5_and_3() {
         assert_eq!(foobar(45), Some("FooBar".to_string()));
     }
 
+    #[test]
     fn returns_nothing_when_not_dividable_by_5_nor_3() {
         assert_eq!(foobar(67), None);
     }
