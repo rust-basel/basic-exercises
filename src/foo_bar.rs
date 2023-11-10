@@ -26,7 +26,7 @@ mod tests {
         assert_eq!(foobar(45), Some("FooBar".to_string()));
     }
 
-    fn returns_nothing_when_dividable_by_5_and_3() {
-        assert_eq!(foobar(66), None);
+    fn returns_nothing_when_not_dividable_by_5_nor_3() {
+        assert_eq!(foobar(67), None);
     }
 }
